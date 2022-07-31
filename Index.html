@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
+    <!--Animate Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!--Boxicons-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
@@ -23,74 +26,74 @@
 </head>
 
 <body>
-        <article class="hero">
-            <button id="btn-hidden">Mostrar Formulario</button>
-            <section class="section-form">
-                <h2 class="title">Bienvenido!</h2>
-                <form id="form" class="form" autocomplete="off">
-                    <div class="contain-data">
-                        <div id="data_name" class="data">
-                            <label for="#name" id="label">Nombre</label>
-                            <div class="data-input">
-                                <input name='name' id='name' type="text" placeholder="Alex David" required>
-                                <i class='bx'></i>
-                                <span>Credenciales Invalidas</span>
-                            </div>
-                        </div>
-
-                        <div id="data_lastName" class="data">
-                            <label for="#lastName" id="label">Apellidos</label>
-                            <div class="data-input">
-                                <input  name='lastName' id='lastName' type="text" placeholder="Daes Perez" required>
-                                <i class='bx'></i>
-                                <span>Credenciales Invalidas</span>
-                            </div>
+    <article class="hero">
+        <button id="btn-hidden">Mostrar Formulario</button>
+        <section class="section-form">
+            <h2 class="title">Bienvenido!</h2>
+            <form id="form" class="form" autocomplete="off">
+                <div class="contain-data">
+                    <div id="data_name" class="data">
+                        <label for="#name" id="label">Nombre</label>
+                        <div class="data-input">
+                            <input name='name' id='name' type="text" placeholder="Alex David" required>
+                            <i class='bx'></i>
+                            <span>Credenciales Invalidas</span>
                         </div>
                     </div>
 
-                    <div class="contain-data">
-
-                        <div id="data_email" class="data">
-                            <label form="#email">Email</label>
-                            <div class="data-input">
-                                <input name="email" id="email" type="email" placeholder="correo@gmail.com" required>
-                                <i class='bx'></i>
-                                <span>Credenciales Invalidas</span>
-                            </div>
-                        </div>
-
-                        <div id="data_phone" class="data">
-                            <label form="#phone">Celular</label>
-                            <div class="data-input">
-                                <input name="phone" id="phone" type="number" placeholder="3001234567" required>
-                                <i class='bx'></i>
-                                <span>Credenciales Invalidas</span>
-                            </div>
+                    <div id="data_lastName" class="data">
+                        <label for="#lastName" id="label">Apellidos</label>
+                        <div class="data-input">
+                            <input name='lastName' id='lastName' type="text" placeholder="Daes Perez" required>
+                            <i class='bx'></i>
+                            <span>Credenciales Invalidas</span>
                         </div>
                     </div>
-                    <div class="contain-other">
-                        <div class="other">
-                            <label for="#countryes" id="label2">Pais</label>
-                            <select class='select' name="select" id="country" required>
-                                <option>Seleccionar Pais</option>
-                            </select>
+                </div>
+
+                <div class="contain-data">
+
+                    <div id="data_email" class="data">
+                        <label form="#email">Email</label>
+                        <div class="data-input">
+                            <input name="email" id="email" type="email" placeholder="correo@gmail.com" required>
+                            <i class='bx'></i>
+                            <span>Credenciales Invalidas</span>
                         </div>
                     </div>
-                    <button class="btn-aceptar">crear</button>
-                </form>
-            </section>
-            <section id="section-users" class="section-users">
-                <table id="table" class="table">
-                    <tr class="encabezados">
-                        <th>Nombre</th>
-                        <th>Apellidos</th>
-                        <th>Email</th>
-                        <th>Celular</th>
-                        <th>Pais</th>
-                    </tr>
-                </table>
-            </section>
-        </article>
+
+                    <div id="data_phone" class="data">
+                        <label form="#phone">Celular</label>
+                        <div class="data-input">
+                            <input name="phone" id="phone" type="number" placeholder="3001234567" required>
+                            <i class='bx'></i>
+                            <span>Credenciales Invalidas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contain-other">
+                    <div class="other">
+                        <label for="#countryes" id="label2">Pais</label>
+                        <select class='select' name="select" id="country" required>
+                            <option>Seleccionar Pais</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn-aceptar">crear</button>
+            </form>
+        </section>
+        <section id="section-users" class="section-users">
+            <table id="table" class="table">
+                <tr class="encabezados">
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Email</th>
+                    <th>Celular</th>
+                    <th>Pais</th>
+                </tr>
+            </table>
+        </section>
+    </article>
     <script src="JavasCript.js" type="module">
 
     </script>
