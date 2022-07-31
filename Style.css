@@ -195,6 +195,8 @@ button:hover{
 }
 
 
+
+
 .encabezados{
     background-color: rgb(238, 35, 35);
     color: rgb(255, 255, 255);
@@ -209,6 +211,7 @@ button:hover{
 }
 
 @media screen and (max-width:685px) {
+
     .section-users.active{
         width: 90%;
     }
@@ -221,6 +224,16 @@ button:hover{
     
     .section-users.active{
         width: 100%;
+        
     }
     
+    
+
+    th{
+        font-size:.6rem;
+    }
+
+    td{
+        font-size: .5rem;
+    }
 }

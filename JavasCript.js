@@ -113,7 +113,7 @@ let table = ''
 
 
 for (const index in usuarios) {
-    table += `<tr><td>${usuarios[index].name}</td>
+    table += `<tr class='filas'><td>${usuarios[index].name}</td>
     <td>${usuarios[index].lastName}</td>
     <td>${usuarios[index].email}</td>
     <td>${usuarios[index].phone}</td>
